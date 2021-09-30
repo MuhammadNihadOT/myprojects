@@ -14,14 +14,6 @@ body {
     text-decoration: none;
     font-size: 17px;
 }
-/* .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}  
-.topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-}  */
 .topnav-right {
     float: right;
 }
@@ -67,8 +59,34 @@ body {
     font-size: 15px;
     color: #757575;
 }
-/* .section-content-div2{
-    width: 1290px;
-    height: 400px;
-    background-color: tomato;
-} */
+.section-content-div2{
+    width: 1248px;
+    height: 350px;
+    background-color: #d6e6d66e;
+    padding-left: 80px;
+    padding-top: 15px;
+}
+.content-div1{
+    width: 600px;
+    height: 300px;
+    float: left;
+}
+.content-div2{
+    float: left;
+}
+.strong{
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+}
+.d1{
+    font-size: 15px;
+    color: #757575;
+}
+.strong-div1{
+    padding-top: 7px;
+}
+.content-div2{
+    width: 600px;
+    height:300px;
+}
