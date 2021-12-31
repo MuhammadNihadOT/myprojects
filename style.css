@@ -2,46 +2,12 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.header-div{
-    width: 1335px;
-    height: 65px;
-    background-color: #fff;
-    position: fixed;
-}
-.header-div1{
-    width: 400px;
-    height: 70px;
-    float: left;
-}
-.header-div2{
-    float: right;
-    width: 100px;
-    height: 40px;
-    padding-top: 25px;
-}
-#img{
-    width: 150px;
-    height: 40px;
-    padding-left: 75px;
-    padding-top: 10px; 
-}
-.header-content{
-    color: #00b5ff;
-    font-size: 18px;
-}
-.header-div3{
-    float: right;
-    width: 100px;
-    height: 40px;
-    padding-left: 15px;
-    padding-top: 25px;
-}
 .section-head {
     width: 100%;
     height: 41px;
     text-align: center;
     background-color: #d6e6d66e;
-    padding-top: 80px;
+    padding-top: 80px; 
 }
 .section-head-content {
     color: black;
@@ -49,54 +15,17 @@ body {
     padding: 6px;
     font-size: 20px;
 }
-.section-content {
-    padding-left: 193px;
-    width: 1120px;
-    height: 41px;
-    text-align: center;
-    background-color: #d6e6d66e;
-}
-.section-content-div1{
-    width: 945px;
-    height: 41px;
-}
 #section-content{
     font-size: 15px;
     color: #757575;
 }
-.section-content-div2{
-    width: 1233px;
-    height: 275px;
-    background-color: #d6e6d66e;
-    padding-left: 80px;
-    padding-top: 15px;
-}
-.content-div1{
-    width: 600px;
-    height: 300px;
-    float: left;
-}
-.content-div2{
-    float: left;
-}
 .strong{
-    color: black;
     font-family: monospace;
     font-size: 20px;
 }
 .d1{
     font-size: 15px;
     color: #757575;
-}
-.strong-div1{
-    padding-top: 7px;
-}
-.content-div2{
-    width: 600px;
-    height:300px;
-}
-.table{
-    padding: 10px 0px;
 }
 .inp {
     width: 305px;
@@ -107,38 +36,17 @@ body {
     background: none;
     color: #949192;
 }
-.td{
-    padding: 15px 33px;
-}
-.section-content-div2-1{
-    width: 1233px;
-    height: 500px;
-    background-color: #d6e6d66e;
-    padding-left: 80px;
-    padding-top: 15px;
-}
 #text-area{
-    width: 1075px;
-    height: 170px;
     border-radius: 6px;
-    background-color: #f1f1f152;
-}
-.text-area-div{
-    width: 1113px;
-    padding-left: 28px;
-    height: 200px;
-    background-color: #f1f1f152;;
-}
-.btn-div{
-    background-color: #f1f1f152;
-    padding: 30px 495px;
+    border: 1px solid #a9a0a0;
+    background: none;
+    color: #949192;
 }
 #btn{
-    padding: 15px;
+    padding: 10px;
     border: 1px;
-    border-radious: 6px;
     color: white;
     background-color: deepskyblue;
-    border-radius: 10px;
-    font-size: 15px;
+    border-radius: 40px;
+    font-size: 14px;
 }

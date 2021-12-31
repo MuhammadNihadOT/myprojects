@@ -1,112 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Assignment</title>
+
+    <!-- Title Icon -->
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2464/2464486.png" type="image/x-icon">
+    <!-- Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
+
 <body>
-    <header>
-        <div class="header-div">
-            <div class="header-div1">
-                <img id="img" src="https://bootstrapmade.com/demo/templates/Medicio/assets/img/logo.png" alt="">
-            </div>
-            <div class="header-div2">
-                <a class="header-content">ABOUT</a>
-            </div>
-            <div class="header-div3">
-                <a class="header-content">HOME</a>
+
+<!-- Header Start -->
+    <header class="bg-light w-100" style="position: fixed;z-index: 9;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-5 col-md-6">
+                    <!-- Image and text -->
+                    <nav class="navbar navbar-light bg-light pl-5">
+                        <a class="navbar-brand" href="#">
+                            <img src="https://bootstrapmade.com/demo/templates/Medicio/assets/img/logo.png" width="100" height="25" class="d-inline-block align-top" alt="">
+                        </a>
+                    </nav>
+                </div>
+                <div class=" col-7 col-md-6">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end w-100">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-end w-100">
+                            <li class="nav-item">
+                              <a class="nav-link text-info" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-info" href="#about">About</a>
+                            </li>
+                          </ul>
+                        </div>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
-    <section>
-        <div class="section-head">
-            <a class="section-head-content">MEDICIO</a>
-        </div>
-        <div class="section-content">
-            <div class="section-content-div1"><a id="section-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book</a></div>
-        </div>
-        <div class="section-content-div2">
-            <div class="content-div1">
-                </a><strong class="strong">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci. <br></strong>
-                <div class="strong-div1">
-                    <a class="d1">"There is no one who loves pain itself who seeks after it and wants to have it simply because it is pain lorem Ipsum has been the industry's standard</a>
-                </div>
-                <div class="strong-div2">
-                    <ol class="d1" type="A">
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><br>
-                        <li>Mauris quis nulla eu enim egestas ullamcorper ut quis metus.</li><br>
-                        <li>Nulla aliquet erat in tristique consequat
-                            Praesent mattis turpis nec mauris pharetra pharetra
-                            Sed at felis suscipit, vestibulum eros quis, tincidunt felis.</li>
-                    </ol>
-                </div>
-            </div>
-            <div class="content-div2">
-                <a><img src="owen-lystrup-boLgiM0qwkg-unsplash.jpg" alt="" style="width:300px;height: 250px;"></a>
-            </div>
-        </div>
-        <div class="section-head">
-            <a class="section-head-content">MAKE AN APPOINTMENT</a>
-        </div>
-        <div class="section-content">
-            <div class="section-content-div1"><a id="section-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book</a></div>
-        </div>
-        <div class="section-content-div2-1">
-            <table class="table">
-                <thead>
+<!-- Header End -->
 
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="td"><input class="inp" type="text" placeholder="Your Name"></td>
-                        <td class="td"><input class="inp" type="email" placeholder="Your Email"></td>
-                        <td class="td"><input class="inp" type="number" placeholder="Your Phone"></td>
-                    </tr>
-                    <tr>
-                        <td class="td"><input  class="inp" type="date" placeholder="Appointment Date"></td>
-                        <td class="td">
-                            <select class="inp">
-                                <option class="opt">Select Department</option>
-                                <option>DEPARTMENT OF GENERAL MEDICINE</option>
-                                <option>DEPARTMENT OF NEURO SURGERY</option>
-                                <option>EPARTMENT OF UROLOGY</option>
-                                <option>DEPARTMENT OF OPTHALMOLOGY</option>
-                                <option>CASUALTY</option>
-                                <option>DEPARTMENT OF SURGICAL GASTROENTEROLOGY</option>
-                                <option>DEPARTMENT OF PATHOLOGY</option>
-                                <option>DEPT. OF GENERAL SURGERY AND LAPAROSCOPY</option>
-                            </select>
-                        </td>
-                        <td class="td">
-                            <select class="inp">
-                                <option class="opt">Select Doctor</option>
-                                <option>Dr. T.J.L. VICTOR, MBBS, MD (General Medicine) </option>
-                                <option>Dr. REMA E., MBBS</option>
-                                <option>Dr. SAPNA RAJIV, MBBS</option>
-                                <option>Dr. K.R. BABU, MBBS</option>
-                                <option>Dr. MATHEW OLAKKENGIL,MBBS, MD (General Medicine)</option>
-                                <option>Dr. THRUDEEP SAGAR, MBBS, MD, DM (Cardiology)</option>
-                                <option>Dr. THOMAS JOHN, MBBS, MD,DM (Cardiology), DNB</option>
-                                <option>Dr. RAJIV ZACHARIAH, MBBS, MD, DM (Cardiology)</option>
-                                <option>Dr. V. E. A. SHAKKEEL, MD Physician, DNB (Family Medicine)</option>
-                            </select>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="text-area-div">
-                <textarea name="" id="text-area" cols="30" rows="10" placeholder="Message (Option)"></textarea>
+
+
+
+
+<!-- Section Start -->
+    <section id="home" class="" style="background-color: #dfdfdf;padding-top: 4rem;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-head" style="padding: 15px;">
+                        <a class="section-head-content">MEDICIO</a>
+                    </div>
+                </div>
             </div>
-            <div class="btn-div">
-                <button id="btn" type="button">Make an Appointment</button>
+            <div id="about" class="row">
+                <div class="col-md-12">
+                    <div class="container-fluid text-center w-100 d-flex ">
+                        <p class="pt-4" id="section-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                    </div>
+                </div>
             </div>
+            <div  class="row">
+                <div class="col-md-6">
+                   <div class="container-fluid">
+                       <p>
+                        <strong class="strong">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci.</strong>
+                       </p>
+                       <p class="d1">There is no one who loves pain itself who seeks after it and wants to have it simply because it is pain lorem Ipsum has been the industry's standard</p>
+                       <ol class="d1" type="A">
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><br>
+                            <li>Mauris quis nulla eu enim egestas ullamcorper ut quis metus.</li><br>
+                            <li>Nulla aliquet erat in tristique consequat
+                                Praesent mattis turpis nec mauris pharetra pharetra
+                                Sed at felis suscipit, vestibulum eros quis, tincidunt felis.
+                            </li>
+                        </ol>
+                    </div>
+               </div>
+               <div class="col-md-6 text-center">
+                    <div class="container-fluid ">
+                        <img src="owen-lystrup-boLgiM0qwkg-unsplash.jpg" alt="" style="width:300px;height: 250px;">
+                    </div>
+               </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center pt-5">
+                    <a class="section-head-content">MAKE AN APPOINTMENT</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="container-fluid text-center pt-4">
+                        <p class="d1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                    </div>
+                </div>
+            </div>
+            <form action="" method="post">
+                <div class="form-row text-center w-100">
+                    <div class="form-group col-lg-4 p-1 pl-4">
+                        <input class="inp w-100 pl-3" type="text" placeholder="Your Name">
+                    </div>
+                    <div class="form-group col-lg-4 p-1 pl-4">
+                        <input class="inp w-100 pl-3" type="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group col-lg-4 p-1 pl-4">
+                        <input class="inp w-100 pl-3" type="tel" placeholder="Your Phone">
+                    </div>
+                </div>
+                <div class="form-row text-center w-100">
+                    <div class="form-group col-lg-4 p-1 pl-4">
+                        <select class="inp w-100 pl-3">
+                            <option class="opt">Select Department</option>
+                            <option>DEPARTMENT OF GENERAL MEDICINE</option>
+                            <option>DEPARTMENT OF NEURO SURGERY</option>
+                            <option>EPARTMENT OF UROLOGY</option>
+                            <option>DEPARTMENT OF OPTHALMOLOGY</option>
+                            <option>CASUALTY</option>
+                            <option>DEPARTMENT OF SURGICAL GASTROENTEROLOGY</option>
+                            <option>DEPARTMENT OF PATHOLOGY</option>
+                            <option>DEPT. OF GENERAL SURGERY AND LAPAROSCOPY</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-lg-4 p-1 pl-4">
+                        <select class="inp w-100 pl-3">
+                            <option class="opt">Select Doctor</option>
+                            <option>Dr. T.J.L. VICTOR, MBBS, MD (General Medicine) </option>
+                            <option>Dr. REMA E., MBBS</option>
+                            <option>Dr. SAPNA RAJIV, MBBS</option>
+                            <option>Dr. K.R. BABU, MBBS</option>
+                            <option>Dr. MATHEW OLAKKENGIL,MBBS, MD (General Medicine)</option>
+                            <option>Dr. THRUDEEP SAGAR, MBBS, MD, DM (Cardiology)</option>
+                            <option>Dr. THOMAS JOHN, MBBS, MD,DM (Cardiology), DNB</option>
+                            <option>Dr. RAJIV ZACHARIAH, MBBS, MD, DM (Cardiology)</option>
+                            <option>Dr. V. E. A. SHAKKEEL, MD Physician, DNB (Family Medicine)</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-lg-4 p-1 pl-4">
+                        <input  class="inp w-100 pl-3" type="date" placeholder="Appointment Date">
+                    </div>
+                    <div class="form-row text-center w-100">
+                        <div class="form-group w-100 p-1 pl-4">
+                            <textarea name="" class=" w-100 pl-3" id="text-area" cols="30" rows="10" placeholder="Message (Option)"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row text-center w-100">
+                        <div class="form-group w-100 p-1 pl-4 pb-5">
+                            <input id="btn" type="submit" value="Make an Appointment">
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
     </section>  
+<!-- Section End -->
+
+
+
+
+
+<!-- Footer Start -->
     <footer>
         <div style="width:100%;height:30px;background-color:skyblue"></div>
     </footer>
+<!-- Footer End -->
+
+
+<!-- Bootstrap JS Link -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
